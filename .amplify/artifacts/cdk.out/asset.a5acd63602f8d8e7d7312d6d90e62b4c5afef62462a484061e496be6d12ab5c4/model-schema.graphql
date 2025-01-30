@@ -1,0 +1,15 @@
+type Customers @model @auth(rules: [{allow: public, provider: apiKey}])
+{
+  customer_id: String
+  name: String
+  email: String
+  image: String
+}
+
+type Invoices @model @auth(rules: [{allow: public, provider: apiKey}])
+{
+  customer_id: String
+  amount: Int
+  status: String
+  date: String
+}

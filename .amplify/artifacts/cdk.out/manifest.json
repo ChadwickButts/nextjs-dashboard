@@ -1,0 +1,1464 @@
+{
+  "version": "39.0.0",
+  "artifacts": {
+    "amplify-nextjsamplify-chadw-sandbox-7487025674.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "amplify-nextjsamplify-chadw-sandbox-7487025674.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "amplify-nextjsamplify-chadw-sandbox-7487025674": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "amplify-nextjsamplify-chadw-sandbox-7487025674.template.json",
+        "terminationProtection": false,
+        "tags": {
+          "amplify:deployment-type": "sandbox",
+          "created-by": "amplify"
+        },
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/8d6cb501f51b6e8df29cfea08ac8656c2fa13ea8523d6ab487e7dc66419200ff.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "amplify-nextjsamplify-chadw-sandbox-7487025674.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "amplify-nextjsamplify-chadw-sandbox-7487025674.assets"
+      ],
+      "metadata": {
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674": [
+          {
+            "type": "aws:cdk:stack-tags",
+            "data": [
+              {
+                "Key": "amplify:deployment-type",
+                "Value": "sandbox"
+              },
+              {
+                "Key": "created-by",
+                "Value": "amplify"
+              }
+            ]
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/deploymentType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deploymentType"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/region": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "region"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/GraphQLAPI/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPI42A6FA33"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/GraphQLAPI/TransformerSchema": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPITransformerSchemaFF50A789"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/GraphQLAPI/DefaultApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPIDefaultApiKey1C8ED374"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/GraphQLAPI/NONE_DS": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/GraphQLAPI/NONE_DS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPINONEDS684BF699"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyTableManager/AmplifyManagedTableIsCompleteRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableIsCompleteRoleF825222C"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableOnEventRoleB4E71DEA"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableOnEventRoleDefaultPolicyF6DABCB6"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-onEvent/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TableManagerCustomProviderframeworkonEvent1DFC2ECC"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-isComplete/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TableManagerCustomProviderframeworkisComplete2E51021B"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachineRole470BE899"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachineRoleDefaultPolicy89F3836A"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachine060600BC"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyTableManager/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyTableManager/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyTableManager/reference-to-amplifynextjsamplifychadwsandbox7487025674dataamplifyDataGraphQLAPIAA4957B0ApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynextjsamplifychadwsandbox7487025674dataamplifyDataGraphQLAPIAA4957B0ApiId"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyTableManager/amplifynextjsamplifychadwsandbox7487025674dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent7F94E946Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifynextjsamplifychadwsandbox7487025674dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent7F94E946Arn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyTableManager.NestedStack/AmplifyTableManager.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource86290833"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/HasEnvironmentParameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HasEnvironmentParameter"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/ShouldUseServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUseServerSideEncryption"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/ShouldUsePayPerRequestBilling": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePayPerRequestBilling"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/ShouldUsePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePointInTimeRecovery"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/CustomersTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Customers"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/CustomersTable/Default/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomersTable"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Customers"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/CustomTableCustomersTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Customers"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/GetAttCustomersTableStreamArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttCustomersTableStreamArn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/GetAttCustomersTableName": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttCustomersTableName"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/CustomersIAMRole": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "CustomersIAMRole"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/CustomersIAMRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomersIAMRole2F255630"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "CustomersIAMRole"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/CustomersDataSource": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "CustomersTable"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/CustomersDataSource/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomersDataSource"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "CustomersTable"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/QuerygetCustomersauth0Function/QuerygetCustomersauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetCustomersauth0FunctionQuerygetCustomersauth0FunctionAppSyncFunction1E1FDEC4"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetCustomersauth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/QuerygetCustomerspostAuth0Function/QuerygetCustomerspostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetCustomerspostAuth0FunctionQuerygetCustomerspostAuth0FunctionAppSyncFunction779DC8A5"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetCustomerspostAuth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/QueryGetCustomersDataResolverFn/QueryGetCustomersDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryGetCustomersDataResolverFnQueryGetCustomersDataResolverFnAppSyncFunction913379EB"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryGetCustomersDataResolverFn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/queryGetCustomersResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetCustomersResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.getCustomers"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/QuerylistCustomersauth0Function/QuerylistCustomersauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistCustomersauth0FunctionQuerylistCustomersauth0FunctionAppSyncFunction64559FB7"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistCustomersauth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/QuerylistCustomerspostAuth0Function/QuerylistCustomerspostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistCustomerspostAuth0FunctionQuerylistCustomerspostAuth0FunctionAppSyncFunction06B0A250"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistCustomerspostAuth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/QueryListCustomersDataResolverFn/QueryListCustomersDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryListCustomersDataResolverFnQueryListCustomersDataResolverFnAppSyncFunction8EF31CA3"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryListCustomersDataResolverFn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/queryListCustomersResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ListCustomersResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.listCustomers"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/MutationcreateCustomersinit0Function/MutationcreateCustomersinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateCustomersinit0FunctionMutationcreateCustomersinit0FunctionAppSyncFunctionF666D0DD"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateCustomersinit0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/MutationcreateCustomersauth0Function/MutationcreateCustomersauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateCustomersauth0FunctionMutationcreateCustomersauth0FunctionAppSyncFunctionD7C4AAF6"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateCustomersauth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/MutationcreateCustomerspostAuth0Function/MutationcreateCustomerspostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateCustomerspostAuth0FunctionMutationcreateCustomerspostAuth0FunctionAppSyncFunctionA7D9D36A"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateCustomerspostAuth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/MutationCreateCustomersDataResolverFn/MutationCreateCustomersDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationCreateCustomersDataResolverFnMutationCreateCustomersDataResolverFnAppSyncFunctionF47EDD40"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationCreateCustomersDataResolverFn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/mutationCreateCustomersResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CreateCustomersResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.createCustomers"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/MutationupdateCustomersinit0Function/MutationupdateCustomersinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateCustomersinit0FunctionMutationupdateCustomersinit0FunctionAppSyncFunction5967867C"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateCustomersinit0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/MutationupdateCustomersauth0Function/MutationupdateCustomersauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateCustomersauth0FunctionMutationupdateCustomersauth0FunctionAppSyncFunctionC16F4C53"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateCustomersauth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/MutationupdateCustomerspostAuth0Function/MutationupdateCustomerspostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateCustomerspostAuth0FunctionMutationupdateCustomerspostAuth0FunctionAppSyncFunction2B4B58C6"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateCustomerspostAuth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/MutationUpdateCustomersDataResolverFn/MutationUpdateCustomersDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationUpdateCustomersDataResolverFnMutationUpdateCustomersDataResolverFnAppSyncFunctionBA2F5A4F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationUpdateCustomersDataResolverFn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/mutationUpdateCustomersResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UpdateCustomersResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.updateCustomers"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/MutationdeleteCustomersauth0Function/MutationdeleteCustomersauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteCustomersauth0FunctionMutationdeleteCustomersauth0FunctionAppSyncFunction8173D3C1"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteCustomersauth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/MutationdeleteCustomerspostAuth0Function/MutationdeleteCustomerspostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteCustomerspostAuth0FunctionMutationdeleteCustomerspostAuth0FunctionAppSyncFunctionD17AB031"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteCustomerspostAuth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/MutationDeleteCustomersDataResolverFn/MutationDeleteCustomersDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationDeleteCustomersDataResolverFnMutationDeleteCustomersDataResolverFnAppSyncFunction537CA0AB"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationDeleteCustomersDataResolverFn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/mutationDeleteCustomersResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DeleteCustomersResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.deleteCustomers"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/SubscriptiononCreateCustomersauth0Function/SubscriptiononCreateCustomersauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateCustomersauth0FunctionSubscriptiononCreateCustomersauth0FunctionAppSyncFunction1C6C33C5"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateCustomersauth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/SubscriptiononCreateCustomerspostAuth0Function/SubscriptiononCreateCustomerspostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateCustomerspostAuth0FunctionSubscriptiononCreateCustomerspostAuth0FunctionAppSyncFunction8A32C9A1"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateCustomerspostAuth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/SubscriptionOnCreateCustomersDataResolverFn/SubscriptionOnCreateCustomersDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnCreateCustomersDataResolverFnSubscriptionOnCreateCustomersDataResolverFnAppSyncFunctionD80BB66D"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnCreateCustomersDataResolverFn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/subscriptionOnCreateCustomersResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateCustomersResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onCreateCustomers"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/SubscriptiononUpdateCustomersauth0Function/SubscriptiononUpdateCustomersauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateCustomersauth0FunctionSubscriptiononUpdateCustomersauth0FunctionAppSyncFunctionDBC5888F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateCustomersauth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/SubscriptiononUpdateCustomerspostAuth0Function/SubscriptiononUpdateCustomerspostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateCustomerspostAuth0FunctionSubscriptiononUpdateCustomerspostAuth0FunctionAppSyncFunction3770ACE2"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateCustomerspostAuth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/SubscriptionOnUpdateCustomersDataResolverFn/SubscriptionOnUpdateCustomersDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnUpdateCustomersDataResolverFnSubscriptionOnUpdateCustomersDataResolverFnAppSyncFunction9E56E3AF"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnUpdateCustomersDataResolverFn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/subscriptionOnUpdateCustomersResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateCustomersResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onUpdateCustomers"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/SubscriptiononDeleteCustomersauth0Function/SubscriptiononDeleteCustomersauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteCustomersauth0FunctionSubscriptiononDeleteCustomersauth0FunctionAppSyncFunction960C3569"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteCustomersauth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/SubscriptiononDeleteCustomerspostAuth0Function/SubscriptiononDeleteCustomerspostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteCustomerspostAuth0FunctionSubscriptiononDeleteCustomerspostAuth0FunctionAppSyncFunctionE3B5D61D"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteCustomerspostAuth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/SubscriptionOnDeleteCustomersDataResolverFn/SubscriptionOnDeleteCustomersDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnDeleteCustomersDataResolverFnSubscriptionOnDeleteCustomersDataResolverFnAppSyncFunction9FBC177D"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnDeleteCustomersDataResolverFn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/subscriptionOnDeleteCustomersResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteCustomersResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onDeleteCustomers"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/reference-to-amplifynextjsamplifychadwsandbox7487025674dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource7D44446EOutputs.amplifynextjsamplifychadwsandbox7487025674dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent7F94E946Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynextjsamplifychadwsandbox7487025674dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource7D44446EOutputsamplifynextjsamplifychadwsandbox7487025674dataamplifyDataAmplifyTableManagerTableManagerC0D5E3B88"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/reference-to-amplifynextjsamplifychadwsandbox7487025674dataamplifyDataGraphQLAPIAA4957B0ApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynextjsamplifychadwsandbox7487025674dataamplifyDataGraphQLAPIAA4957B0ApiId"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers/reference-to-amplifynextjsamplifychadwsandbox7487025674dataamplifyDataGraphQLAPINONEDSC23205C3Name": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynextjsamplifychadwsandbox7487025674dataamplifyDataGraphQLAPINONEDSC23205C3Name"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Customers.NestedStack/Customers.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataCustomersNestedStackCustomersNestedStackResource21D2C6CA"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/HasEnvironmentParameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HasEnvironmentParameter"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/ShouldUseServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUseServerSideEncryption"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/ShouldUsePayPerRequestBilling": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePayPerRequestBilling"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/ShouldUsePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePointInTimeRecovery"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/InvoicesTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Invoices"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/InvoicesTable/Default/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "InvoicesTable"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Invoices"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/CustomTableInvoicesTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Invoices"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/GetAttInvoicesTableStreamArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttInvoicesTableStreamArn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/GetAttInvoicesTableName": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttInvoicesTableName"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/InvoicesIAMRole": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "InvoicesIAMRole"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/InvoicesIAMRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "InvoicesIAMRoleD980DDE4"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "InvoicesIAMRole"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/InvoicesDataSource": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "InvoicesTable"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/InvoicesDataSource/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "InvoicesDataSource"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "InvoicesTable"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/QuerygetInvoicesauth0Function/QuerygetInvoicesauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetInvoicesauth0FunctionQuerygetInvoicesauth0FunctionAppSyncFunctionDD3864E8"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetInvoicesauth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/QuerygetInvoicespostAuth0Function/QuerygetInvoicespostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetInvoicespostAuth0FunctionQuerygetInvoicespostAuth0FunctionAppSyncFunctionC21F2565"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetInvoicespostAuth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/QueryGetInvoicesDataResolverFn/QueryGetInvoicesDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryGetInvoicesDataResolverFnQueryGetInvoicesDataResolverFnAppSyncFunction076681EB"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryGetInvoicesDataResolverFn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/queryGetInvoicesResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetInvoicesResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.getInvoices"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/QuerylistInvoicesauth0Function/QuerylistInvoicesauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistInvoicesauth0FunctionQuerylistInvoicesauth0FunctionAppSyncFunctionA3C201C9"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistInvoicesauth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/QuerylistInvoicespostAuth0Function/QuerylistInvoicespostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistInvoicespostAuth0FunctionQuerylistInvoicespostAuth0FunctionAppSyncFunctionCA724F91"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistInvoicespostAuth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/QueryListInvoicesDataResolverFn/QueryListInvoicesDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryListInvoicesDataResolverFnQueryListInvoicesDataResolverFnAppSyncFunction5BF79808"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryListInvoicesDataResolverFn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/queryListInvoicesResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ListInvoicesResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.listInvoices"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/MutationcreateInvoicesinit0Function/MutationcreateInvoicesinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateInvoicesinit0FunctionMutationcreateInvoicesinit0FunctionAppSyncFunction41DBC907"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateInvoicesinit0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/MutationcreateInvoicesauth0Function/MutationcreateInvoicesauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateInvoicesauth0FunctionMutationcreateInvoicesauth0FunctionAppSyncFunctionF1DF83F6"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateInvoicesauth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/MutationcreateInvoicespostAuth0Function/MutationcreateInvoicespostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateInvoicespostAuth0FunctionMutationcreateInvoicespostAuth0FunctionAppSyncFunction129EFF9B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateInvoicespostAuth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/MutationCreateInvoicesDataResolverFn/MutationCreateInvoicesDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationCreateInvoicesDataResolverFnMutationCreateInvoicesDataResolverFnAppSyncFunctionFDE6B9C8"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationCreateInvoicesDataResolverFn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/mutationCreateInvoicesResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CreateInvoicesResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.createInvoices"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/MutationupdateInvoicesinit0Function/MutationupdateInvoicesinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateInvoicesinit0FunctionMutationupdateInvoicesinit0FunctionAppSyncFunctionAD96B97C"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateInvoicesinit0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/MutationupdateInvoicesauth0Function/MutationupdateInvoicesauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateInvoicesauth0FunctionMutationupdateInvoicesauth0FunctionAppSyncFunction3EE4582C"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateInvoicesauth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/MutationupdateInvoicespostAuth0Function/MutationupdateInvoicespostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateInvoicespostAuth0FunctionMutationupdateInvoicespostAuth0FunctionAppSyncFunction682E7F8B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateInvoicespostAuth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/MutationUpdateInvoicesDataResolverFn/MutationUpdateInvoicesDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationUpdateInvoicesDataResolverFnMutationUpdateInvoicesDataResolverFnAppSyncFunction1762F243"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationUpdateInvoicesDataResolverFn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/mutationUpdateInvoicesResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UpdateInvoicesResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.updateInvoices"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/MutationdeleteInvoicesauth0Function/MutationdeleteInvoicesauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteInvoicesauth0FunctionMutationdeleteInvoicesauth0FunctionAppSyncFunction5C4CF152"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteInvoicesauth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/MutationdeleteInvoicespostAuth0Function/MutationdeleteInvoicespostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteInvoicespostAuth0FunctionMutationdeleteInvoicespostAuth0FunctionAppSyncFunction9C5B9C23"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteInvoicespostAuth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/MutationDeleteInvoicesDataResolverFn/MutationDeleteInvoicesDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationDeleteInvoicesDataResolverFnMutationDeleteInvoicesDataResolverFnAppSyncFunction17AA45F9"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationDeleteInvoicesDataResolverFn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/mutationDeleteInvoicesResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DeleteInvoicesResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.deleteInvoices"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/SubscriptiononCreateInvoicesauth0Function/SubscriptiononCreateInvoicesauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateInvoicesauth0FunctionSubscriptiononCreateInvoicesauth0FunctionAppSyncFunctionC0E230BD"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateInvoicesauth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/SubscriptiononCreateInvoicespostAuth0Function/SubscriptiononCreateInvoicespostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateInvoicespostAuth0FunctionSubscriptiononCreateInvoicespostAuth0FunctionAppSyncFunctionCFCE2725"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateInvoicespostAuth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/SubscriptionOnCreateInvoicesDataResolverFn/SubscriptionOnCreateInvoicesDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnCreateInvoicesDataResolverFnSubscriptionOnCreateInvoicesDataResolverFnAppSyncFunctionF25CB8E3"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnCreateInvoicesDataResolverFn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/subscriptionOnCreateInvoicesResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateInvoicesResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onCreateInvoices"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/SubscriptiononUpdateInvoicesauth0Function/SubscriptiononUpdateInvoicesauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateInvoicesauth0FunctionSubscriptiononUpdateInvoicesauth0FunctionAppSyncFunction28554D49"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateInvoicesauth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/SubscriptiononUpdateInvoicespostAuth0Function/SubscriptiononUpdateInvoicespostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateInvoicespostAuth0FunctionSubscriptiononUpdateInvoicespostAuth0FunctionAppSyncFunctionD781D477"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateInvoicespostAuth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/SubscriptionOnUpdateInvoicesDataResolverFn/SubscriptionOnUpdateInvoicesDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnUpdateInvoicesDataResolverFnSubscriptionOnUpdateInvoicesDataResolverFnAppSyncFunction9DA3C301"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnUpdateInvoicesDataResolverFn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/subscriptionOnUpdateInvoicesResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateInvoicesResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onUpdateInvoices"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/SubscriptiononDeleteInvoicesauth0Function/SubscriptiononDeleteInvoicesauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteInvoicesauth0FunctionSubscriptiononDeleteInvoicesauth0FunctionAppSyncFunction50CC922A"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteInvoicesauth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/SubscriptiononDeleteInvoicespostAuth0Function/SubscriptiononDeleteInvoicespostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteInvoicespostAuth0FunctionSubscriptiononDeleteInvoicespostAuth0FunctionAppSyncFunction72B70F89"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteInvoicespostAuth0Function"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/SubscriptionOnDeleteInvoicesDataResolverFn/SubscriptionOnDeleteInvoicesDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnDeleteInvoicesDataResolverFnSubscriptionOnDeleteInvoicesDataResolverFnAppSyncFunctionDCBACD3A"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnDeleteInvoicesDataResolverFn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/subscriptionOnDeleteInvoicesResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteInvoicesResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onDeleteInvoices"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/reference-to-amplifynextjsamplifychadwsandbox7487025674dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource7D44446EOutputs.amplifynextjsamplifychadwsandbox7487025674dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent7F94E946Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynextjsamplifychadwsandbox7487025674dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource7D44446EOutputsamplifynextjsamplifychadwsandbox7487025674dataamplifyDataAmplifyTableManagerTableManagerC0D5E3B88"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/reference-to-amplifynextjsamplifychadwsandbox7487025674dataamplifyDataGraphQLAPIAA4957B0ApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynextjsamplifychadwsandbox7487025674dataamplifyDataGraphQLAPIAA4957B0ApiId"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices/reference-to-amplifynextjsamplifychadwsandbox7487025674dataamplifyDataGraphQLAPINONEDSC23205C3Name": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynextjsamplifychadwsandbox7487025674dataamplifyDataGraphQLAPINONEDSC23205C3Name"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/Invoices.NestedStack/Invoices.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataInvoicesNestedStackInvoicesNestedStackResourceB91678C1"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucket9CCB4ACA"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketPolicyF1C1C548"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketAutoDeleteObjectsCustomResource437F26F5"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/AwsCliLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/CustomResource-1536MiB/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB21775929"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/LatestNodeRuntimeMap": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LatestNodeRuntimeMap"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+            "data": true
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-singleton",
+            "data": true
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+            "data": 2
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-singleton",
+            "data": true
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+            "data": 2
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleA41FC8C2"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleDefaultPolicyFF1C635B"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBC5D8AB21"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/modelIntrospectionSchemaBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketF566B665"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/modelIntrospectionSchemaBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketPolicy4DAB0D15"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/modelIntrospectionSchemaBucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketAutoDeleteObjectsCustomResourceFE57309F"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/modelIntrospectionSchemaBucketDeployment/AwsCliLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketDeploymentAwsCliLayer13C432F7"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/modelIntrospectionSchemaBucketDeployment/CustomResource-1536MiB/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketDeploymentCustomResource1536MiB104B97EC"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/AMPLIFY_DATA_GRAPHQL_ENDPOINTParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAGRAPHQLENDPOINTParameter1C2CBB16"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_BUCKET_NAMEParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMABUCKETNAMEParameter47BF4F44"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_KEYParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMAKEYParameterB6AEAE8A"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/AMPLIFY_DATA_DEFAULT_NAMEParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATADEFAULTNAMEParameterE7C23CC4"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifynextjsamplifychadwsandbox7487025674dataamplifyDataGraphQLAPIAA4957B0ApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifynextjsamplifychadwsandbox7487025674dataamplifyDataGraphQLAPIAA4957B0ApiId"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifynextjsamplifychadwsandbox7487025674dataamplifyDataGraphQLAPIAA4957B0GraphQLUrl": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifynextjsamplifychadwsandbox7487025674dataamplifyDataGraphQLAPIAA4957B0GraphQLUrl"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifynextjsamplifychadwsandbox7487025674dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiBF5E838B4DestinationBucketArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifynextjsamplifychadwsandbox7487025674dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiBF5E838B4DestinationBucketArn"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data/amplifynextjsamplifychadwsandbox7487025674dataamplifyDataGraphQLAPIDefaultApiKeyAA2C32C9ApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifynextjsamplifychadwsandbox7487025674dataamplifyDataGraphQLAPIDefaultApiKeyAA2C32C9ApiKey"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/data.NestedStack/data.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "data7552DF31"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/awsAppsyncApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiId"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/awsAppsyncApiEndpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiEndpoint"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/awsAppsyncAuthenticationType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAuthenticationType"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/awsAppsyncRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncRegion"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/amplifyApiModelSchemaS3Uri": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyApiModelSchemaS3Uri"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/awsAppsyncApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiKey"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/awsAppsyncAdditionalAuthenticationTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAdditionalAuthenticationTypes"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/amplify-nextjsamplify-chadw-sandbox-7487025674/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "amplify-nextjsamplify-chadw-sandbox-7487025674"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  }
+}
