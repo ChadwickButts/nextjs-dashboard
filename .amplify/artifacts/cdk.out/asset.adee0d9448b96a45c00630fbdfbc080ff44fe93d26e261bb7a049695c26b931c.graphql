@@ -1,0 +1,323 @@
+type Customers @aws_iam @aws_api_key {
+  customer_id: String
+  name: String
+  email: String
+  image_url: String
+  id: ID!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+}
+
+type Invoices @aws_iam @aws_api_key {
+  customer_id: String
+  amount: Int
+  status: String
+  date: String
+  id: ID!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+}
+
+input AmplifyAIConversationTurnErrorInput {
+  errorType: String!
+  message: String!
+}
+
+input ModelStringInput {
+  ne: String
+  eq: String
+  le: String
+  lt: String
+  ge: String
+  gt: String
+  contains: String
+  notContains: String
+  between: [String]
+  beginsWith: String
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+  size: ModelSizeInput
+}
+
+input ModelIntInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelFloatInput {
+  ne: Float
+  eq: Float
+  le: Float
+  lt: Float
+  ge: Float
+  gt: Float
+  between: [Float]
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelBooleanInput {
+  ne: Boolean
+  eq: Boolean
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelIDInput {
+  ne: ID
+  eq: ID
+  le: ID
+  lt: ID
+  ge: ID
+  gt: ID
+  contains: ID
+  notContains: ID
+  between: [ID]
+  beginsWith: ID
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+  size: ModelSizeInput
+}
+
+input ModelSubscriptionStringInput {
+  ne: String
+  eq: String
+  le: String
+  lt: String
+  ge: String
+  gt: String
+  contains: String
+  notContains: String
+  between: [String]
+  beginsWith: String
+  in: [String]
+  notIn: [String]
+}
+
+input ModelSubscriptionIntInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+  in: [Int]
+  notIn: [Int]
+}
+
+input ModelSubscriptionFloatInput {
+  ne: Float
+  eq: Float
+  le: Float
+  lt: Float
+  ge: Float
+  gt: Float
+  between: [Float]
+  in: [Float]
+  notIn: [Float]
+}
+
+input ModelSubscriptionBooleanInput {
+  ne: Boolean
+  eq: Boolean
+}
+
+input ModelSubscriptionIDInput {
+  ne: ID
+  eq: ID
+  le: ID
+  lt: ID
+  ge: ID
+  gt: ID
+  contains: ID
+  notContains: ID
+  between: [ID]
+  beginsWith: ID
+  in: [ID]
+  notIn: [ID]
+}
+
+enum ModelAttributeTypes {
+  binary
+  binarySet
+  bool
+  list
+  map
+  number
+  numberSet
+  string
+  stringSet
+  _null
+}
+
+input ModelSizeInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+}
+
+enum ModelSortDirection {
+  ASC
+  DESC
+}
+
+type ModelCustomersConnection @aws_api_key @aws_iam {
+  items: [Customers]!
+  nextToken: String
+}
+
+input ModelCustomersFilterInput {
+  customer_id: ModelStringInput
+  name: ModelStringInput
+  email: ModelStringInput
+  image_url: ModelStringInput
+  id: ModelIDInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+  and: [ModelCustomersFilterInput]
+  or: [ModelCustomersFilterInput]
+  not: ModelCustomersFilterInput
+}
+
+type Query {
+  getCustomers(id: ID!): Customers @aws_api_key @aws_iam
+  listCustomers(filter: ModelCustomersFilterInput, limit: Int, nextToken: String): ModelCustomersConnection @aws_api_key @aws_iam
+  getInvoices(id: ID!): Invoices @aws_api_key @aws_iam
+  listInvoices(filter: ModelInvoicesFilterInput, limit: Int, nextToken: String): ModelInvoicesConnection @aws_api_key @aws_iam
+}
+
+input ModelCustomersConditionInput {
+  customer_id: ModelStringInput
+  name: ModelStringInput
+  email: ModelStringInput
+  image_url: ModelStringInput
+  and: [ModelCustomersConditionInput]
+  or: [ModelCustomersConditionInput]
+  not: ModelCustomersConditionInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+}
+
+input CreateCustomersInput {
+  customer_id: String
+  name: String
+  email: String
+  image_url: String
+  id: ID
+}
+
+input UpdateCustomersInput {
+  customer_id: String
+  name: String
+  email: String
+  image_url: String
+  id: ID!
+}
+
+input DeleteCustomersInput {
+  id: ID!
+}
+
+type Mutation {
+  createCustomers(input: CreateCustomersInput!, condition: ModelCustomersConditionInput): Customers @aws_api_key @aws_iam
+  updateCustomers(input: UpdateCustomersInput!, condition: ModelCustomersConditionInput): Customers @aws_api_key @aws_iam
+  deleteCustomers(input: DeleteCustomersInput!, condition: ModelCustomersConditionInput): Customers @aws_api_key @aws_iam
+  createInvoices(input: CreateInvoicesInput!, condition: ModelInvoicesConditionInput): Invoices @aws_api_key @aws_iam
+  updateInvoices(input: UpdateInvoicesInput!, condition: ModelInvoicesConditionInput): Invoices @aws_api_key @aws_iam
+  deleteInvoices(input: DeleteInvoicesInput!, condition: ModelInvoicesConditionInput): Invoices @aws_api_key @aws_iam
+}
+
+input ModelSubscriptionCustomersFilterInput {
+  customer_id: ModelSubscriptionStringInput
+  name: ModelSubscriptionStringInput
+  email: ModelSubscriptionStringInput
+  image_url: ModelSubscriptionStringInput
+  id: ModelSubscriptionIDInput
+  createdAt: ModelSubscriptionStringInput
+  updatedAt: ModelSubscriptionStringInput
+  and: [ModelSubscriptionCustomersFilterInput]
+  or: [ModelSubscriptionCustomersFilterInput]
+}
+
+type Subscription {
+  onCreateCustomers(filter: ModelSubscriptionCustomersFilterInput): Customers @aws_subscribe(mutations: ["createCustomers"]) @aws_api_key @aws_iam
+  onUpdateCustomers(filter: ModelSubscriptionCustomersFilterInput): Customers @aws_subscribe(mutations: ["updateCustomers"]) @aws_api_key @aws_iam
+  onDeleteCustomers(filter: ModelSubscriptionCustomersFilterInput): Customers @aws_subscribe(mutations: ["deleteCustomers"]) @aws_api_key @aws_iam
+  onCreateInvoices(filter: ModelSubscriptionInvoicesFilterInput): Invoices @aws_subscribe(mutations: ["createInvoices"]) @aws_api_key @aws_iam
+  onUpdateInvoices(filter: ModelSubscriptionInvoicesFilterInput): Invoices @aws_subscribe(mutations: ["updateInvoices"]) @aws_api_key @aws_iam
+  onDeleteInvoices(filter: ModelSubscriptionInvoicesFilterInput): Invoices @aws_subscribe(mutations: ["deleteInvoices"]) @aws_api_key @aws_iam
+}
+
+type ModelInvoicesConnection @aws_api_key @aws_iam {
+  items: [Invoices]!
+  nextToken: String
+}
+
+input ModelInvoicesFilterInput {
+  customer_id: ModelStringInput
+  amount: ModelIntInput
+  status: ModelStringInput
+  date: ModelStringInput
+  id: ModelIDInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+  and: [ModelInvoicesFilterInput]
+  or: [ModelInvoicesFilterInput]
+  not: ModelInvoicesFilterInput
+}
+
+input ModelInvoicesConditionInput {
+  customer_id: ModelStringInput
+  amount: ModelIntInput
+  status: ModelStringInput
+  date: ModelStringInput
+  and: [ModelInvoicesConditionInput]
+  or: [ModelInvoicesConditionInput]
+  not: ModelInvoicesConditionInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+}
+
+input CreateInvoicesInput {
+  customer_id: String
+  amount: Int
+  status: String
+  date: String
+  id: ID
+}
+
+input UpdateInvoicesInput {
+  customer_id: String
+  amount: Int
+  status: String
+  date: String
+  id: ID!
+}
+
+input DeleteInvoicesInput {
+  id: ID!
+}
+
+input ModelSubscriptionInvoicesFilterInput {
+  customer_id: ModelSubscriptionStringInput
+  amount: ModelSubscriptionIntInput
+  status: ModelSubscriptionStringInput
+  date: ModelSubscriptionStringInput
+  id: ModelSubscriptionIDInput
+  createdAt: ModelSubscriptionStringInput
+  updatedAt: ModelSubscriptionStringInput
+  and: [ModelSubscriptionInvoicesFilterInput]
+  or: [ModelSubscriptionInvoicesFilterInput]
+}

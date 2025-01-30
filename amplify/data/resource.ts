@@ -5,7 +5,7 @@ const schema = a.schema({
         customer_id: a.string(),
         name: a.string(),
         email: a.string(),
-        image: a.string()
+        image_url: a.string()
     })
         .authorization(allow => [allow.publicApiKey()]),
     Invoices: a.model({
@@ -19,5 +19,9 @@ const schema = a.schema({
 
 export type Schema = ClientSchema<typeof schema>;
 export const data = defineData({
-    schema
+    schema,
+    authorizationModes: {
+        defaultAuthorizationMode: 'apiKey',
+        apiKeyAuthorizationMode: { expiresInDays: 30 }
+    }
 });

@@ -41,8 +41,8 @@
               "isRequired": false,
               "attributes": []
             },
-            "image": {
-              "name": "image",
+            "image_url": {
+              "name": "image_url",
               "isArray": false,
               "type": "String",
               "isRequired": false,

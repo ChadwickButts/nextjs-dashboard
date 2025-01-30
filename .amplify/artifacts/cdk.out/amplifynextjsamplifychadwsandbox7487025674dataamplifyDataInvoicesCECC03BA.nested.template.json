@@ -639,7 +639,7 @@
     "FunctionVersion": "2018-05-29",
     "Name": "QuerygetInvoicespostAuth0Function",
     "RequestMappingTemplateS3Location": {
-     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/3e8d137445fd489ca67a692091bff170dcc875e61e4850dc774d79210729f97d.vtl"
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
@@ -791,7 +791,7 @@
     "FunctionVersion": "2018-05-29",
     "Name": "QuerylistInvoicespostAuth0Function",
     "RequestMappingTemplateS3Location": {
-     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/3e8d137445fd489ca67a692091bff170dcc875e61e4850dc774d79210729f97d.vtl"
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
@@ -965,7 +965,7 @@
     "FunctionVersion": "2018-05-29",
     "Name": "MutationcreateInvoicespostAuth0Function",
     "RequestMappingTemplateS3Location": {
-     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/3e8d137445fd489ca67a692091bff170dcc875e61e4850dc774d79210729f97d.vtl"
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
@@ -1153,7 +1153,7 @@
     "FunctionVersion": "2018-05-29",
     "Name": "MutationupdateInvoicespostAuth0Function",
     "RequestMappingTemplateS3Location": {
-     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/3e8d137445fd489ca67a692091bff170dcc875e61e4850dc774d79210729f97d.vtl"
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
@@ -1319,7 +1319,7 @@
     "FunctionVersion": "2018-05-29",
     "Name": "MutationdeleteInvoicespostAuth0Function",
     "RequestMappingTemplateS3Location": {
-     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/3e8d137445fd489ca67a692091bff170dcc875e61e4850dc774d79210729f97d.vtl"
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
@@ -1471,7 +1471,7 @@
     "FunctionVersion": "2018-05-29",
     "Name": "SubscriptiononCreateInvoicespostAuth0Function",
     "RequestMappingTemplateS3Location": {
-     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/3e8d137445fd489ca67a692091bff170dcc875e61e4850dc774d79210729f97d.vtl"
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
@@ -1590,7 +1590,7 @@
     "FunctionVersion": "2018-05-29",
     "Name": "SubscriptiononUpdateInvoicespostAuth0Function",
     "RequestMappingTemplateS3Location": {
-     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/3e8d137445fd489ca67a692091bff170dcc875e61e4850dc774d79210729f97d.vtl"
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
@@ -1709,7 +1709,7 @@
     "FunctionVersion": "2018-05-29",
     "Name": "SubscriptiononDeleteInvoicespostAuth0Function",
     "RequestMappingTemplateS3Location": {
-     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/3e8d137445fd489ca67a692091bff170dcc875e61e4850dc774d79210729f97d.vtl"
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
