@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@heroicons/react':
         specifier: ^2.2.0
-        version: 2.2.0(react@19.0.0)
+        version: 2.2.0(react@18.3.1)
       '@tailwindcss/forms':
         specifier: ^0.5.9
         version: 0.5.10(tailwindcss@3.4.16)
@@ -30,20 +30,20 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       next:
-        specifier: latest
-        version: 15.1.5(@babel/core@7.26.7)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: ^15.1.5
+        version: 15.1.5(@babel/core@7.26.7)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-auth:
         specifier: 5.0.0-beta.19
-        version: 5.0.0-beta.19(next@15.1.5(@babel/core@7.26.7)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)
+        version: 5.0.0-beta.19(next@15.1.5(@babel/core@7.26.7)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       postcss:
         specifier: 8.4.49
         version: 8.4.49
       react:
-        specifier: 19.0.0
-        version: 19.0.0
+        specifier: ^18.0
+        version: 18.3.1
       react-dom:
-        specifier: 19.0.0
-        version: 19.0.0(react@19.0.0)
+        specifier: ^18.0
+        version: 18.3.1(react@18.3.1)
       tailwindcss:
         specifier: 3.4.16
         version: 3.4.16
@@ -52,7 +52,7 @@ importers:
         version: 4.19.2
       use-debounce:
         specifier: ^10.0.4
-        version: 10.0.4(react@19.0.0)
+        version: 10.0.4(react@18.3.1)
       zod:
         specifier: ^3.23.8
         version: 3.23.8
@@ -62,7 +62,7 @@ importers:
         version: 1.14.0(@aws-sdk/client-cloudformation@3.738.0)(@aws-sdk/client-s3@3.738.0)(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.177.0(constructs@10.4.2))(constructs@10.4.2)(zod@3.23.8)
       '@aws-amplify/backend-cli':
         specifier: ^1.4.8
-        version: 1.4.8(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.177.0(constructs@10.4.2))(aws-cdk@2.177.0)(constructs@10.4.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.2)
+        version: 1.4.8(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.177.0(constructs@10.4.2))(aws-cdk@2.177.0)(constructs@10.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2)
       '@types/bcrypt':
         specifier: ^5.0.2
         version: 5.0.2
@@ -1225,8 +1225,8 @@ packages:
     resolution: {integrity: sha512-t8kDRGrKXyp6+tjUh7hw2RLyclsW4TRoRvRHtSyAX9Bb5ldlFh+90YAYY6awRXrlB4G5G2izNeGySpATlFzmOg==}
     engines: {node: '>=6.9.0'}
 
-  '@emnapi/runtime@1.2.0':
-    resolution: {integrity: sha512-bV21/9LQmcQeCPEg3BDFtvwL6cwiTMksYNWQQ4KOxCZikEGalWtenoZ0wCiukJINlGCIi2KXx01g4FoH/LxpzQ==}
+  '@emnapi/runtime@1.3.1':
+    resolution: {integrity: sha512-kEBmG8KyqtxJZv+ygbEim+KCGtIq1fC22Ms3S4ziXmYKm8uyoLX0MHONVKwp+9opg390VaKRNt4a7A9NwmpNhw==}
 
   '@esbuild/aix-ppc64@0.23.1':
     resolution: {integrity: sha512-6VhYk1diRqrhBAqpJEdjASR/+WVRtfjpqKuNw11cLiaWpAT/Uu+nokB+UJnevzy/P9C/ty6AOe0dwueMrGh/iQ==}
@@ -2529,9 +2529,6 @@ packages:
   camelcase@5.3.1:
     resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==}
     engines: {node: '>=6'}
-
-  caniuse-lite@1.0.30001632:
-    resolution: {integrity: sha512-udx3o7yHJfUxMLkGohMlVHCvFvWmirKh9JAH/d7WOLPetlH+LTL5cocMZ0t7oZx/mdlOWXti97xLZWc8uURRHg==}
 
   caniuse-lite@1.0.30001692:
     resolution: {integrity: sha512-A95VKan0kdtrsnMubMKxEKUKImOPSuCpYgxSQBo036P5YYgVIcOYJEgt/txJWqObiRQeISNCfef9nvlQ0vbV7A==}
@@ -4052,13 +4049,13 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  react-dom@19.0.0:
-    resolution: {integrity: sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==}
+  react-dom@18.3.1:
+    resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
     peerDependencies:
-      react: ^19.0.0
+      react: ^18.3.1
 
-  react@19.0.0:
-    resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
+  react@18.3.1:
+    resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
     engines: {node: '>=0.10.0'}
 
   read-cache@1.0.0:
@@ -4160,8 +4157,8 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  scheduler@0.25.0:
-    resolution: {integrity: sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==}
+  scheduler@0.23.2:
+    resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
@@ -4248,10 +4245,6 @@ packages:
 
   snake-case@3.0.4:
     resolution: {integrity: sha512-LAOh4z89bGQvl9pFfNF8V146i7o7/CqFPbqzYgP+yYzDIDeS9HaNFtXABamRW+AQzEVODcvE79ljJ+8a9YSdMg==}
-
-  source-map-js@1.2.0:
-    resolution: {integrity: sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==}
-    engines: {node: '>=0.10.0'}
 
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
@@ -4837,7 +4830,7 @@ snapshots:
       - aws-crt
       - zod
 
-  '@aws-amplify/backend-cli@1.4.8(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.177.0(constructs@10.4.2))(aws-cdk@2.177.0)(constructs@10.4.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.2)':
+  '@aws-amplify/backend-cli@1.4.8(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.177.0(constructs@10.4.2))(aws-cdk@2.177.0)(constructs@10.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2)':
     dependencies:
       '@aws-amplify/backend-deployer': 1.1.15(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.177.0(constructs@10.4.2))(aws-cdk@2.177.0)(constructs@10.4.2)(typescript@5.7.2)
       '@aws-amplify/backend-output-schemas': 1.4.0(zod@3.23.8)
@@ -4845,7 +4838,7 @@ snapshots:
       '@aws-amplify/cli-core': 1.2.3(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.177.0(constructs@10.4.2))(constructs@10.4.2)
       '@aws-amplify/client-config': 1.5.5(@aws-sdk/client-amplify@3.738.0)(@aws-sdk/client-cloudformation@3.738.0)(@aws-sdk/client-s3@3.738.0)(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.177.0(constructs@10.4.2))(constructs@10.4.2)
       '@aws-amplify/deployed-backend-client': 1.5.0(@aws-sdk/client-amplify@3.738.0)(@aws-sdk/client-cloudformation@3.738.0)(@aws-sdk/client-s3@3.738.0)(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.177.0(constructs@10.4.2))(constructs@10.4.2)
-      '@aws-amplify/form-generator': 1.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@aws-amplify/form-generator': 1.0.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@aws-amplify/model-generator': 1.0.12(@aws-sdk/client-amplify@3.738.0)(@aws-sdk/client-cloudformation@3.738.0)(aws-cdk-lib@2.177.0(constructs@10.4.2))(constructs@10.4.2)(zod@3.23.8)
       '@aws-amplify/platform-core': 1.6.0(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.177.0(constructs@10.4.2))(constructs@10.4.2)
       '@aws-amplify/plugin-types': 1.8.0(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.177.0(constructs@10.4.2))(constructs@10.4.2)
@@ -5024,13 +5017,13 @@ snapshots:
       - encoding
       - supports-color
 
-  '@aws-amplify/codegen-ui-react@2.20.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@aws-amplify/codegen-ui-react@2.20.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@aws-amplify/codegen-ui': 2.20.2
       '@typescript/vfs': 1.3.6
       pluralize: 8.0.0
-      react: 19.0.0
-      react-dom: 19.0.0(react@19.0.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
       semver: 7.6.3
       typescript: 4.4.4
     optionalDependencies:
@@ -5098,11 +5091,11 @@ snapshots:
       - aws-crt
       - constructs
 
-  '@aws-amplify/form-generator@1.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@aws-amplify/form-generator@1.0.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@aws-amplify/appsync-modelgen-plugin': 2.15.1(graphql@15.10.1)
       '@aws-amplify/codegen-ui': 2.20.2
-      '@aws-amplify/codegen-ui-react': 2.20.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@aws-amplify/codegen-ui-react': 2.20.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@aws-amplify/graphql-directives': 1.1.0
       '@aws-amplify/graphql-docs-generator': 4.2.1
       '@aws-sdk/client-amplifyuibuilder': 3.738.0
@@ -7473,7 +7466,7 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@emnapi/runtime@1.2.0':
+  '@emnapi/runtime@1.3.1':
     dependencies:
       tslib: 2.8.1
     optional: true
@@ -7731,9 +7724,9 @@ snapshots:
     dependencies:
       graphql: 15.10.1
 
-  '@heroicons/react@2.2.0(react@19.0.0)':
+  '@heroicons/react@2.2.0(react@18.3.1)':
     dependencies:
-      react: 19.0.0
+      react: 18.3.1
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
@@ -7801,7 +7794,7 @@ snapshots:
 
   '@img/sharp-wasm32@0.33.5':
     dependencies:
-      '@emnapi/runtime': 1.2.0
+      '@emnapi/runtime': 1.3.1
     optional: true
 
   '@img/sharp-win32-ia32@0.33.5':
@@ -9066,8 +9059,6 @@ snapshots:
 
   camelcase@5.3.1: {}
 
-  caniuse-lite@1.0.30001632: {}
-
   caniuse-lite@1.0.30001692: {}
 
   capital-case@1.0.4:
@@ -10228,23 +10219,23 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next-auth@5.0.0-beta.19(next@15.1.5(@babel/core@7.26.7)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0):
+  next-auth@5.0.0-beta.19(next@15.1.5(@babel/core@7.26.7)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1):
     dependencies:
       '@auth/core': 0.32.0
-      next: 15.1.5(@babel/core@7.26.7)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      react: 19.0.0
+      next: 15.1.5(@babel/core@7.26.7)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react: 18.3.1
 
-  next@15.1.5(@babel/core@7.26.7)(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  next@15.1.5(@babel/core@7.26.7)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@next/env': 15.1.5
       '@swc/counter': 0.1.3
       '@swc/helpers': 0.5.15
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001632
+      caniuse-lite: 1.0.30001692
       postcss: 8.4.31
-      react: 19.0.0
-      react-dom: 19.0.0(react@19.0.0)
-      styled-jsx: 5.1.6(@babel/core@7.26.7)(react@19.0.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      styled-jsx: 5.1.6(@babel/core@7.26.7)(react@18.3.1)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.1.5
       '@next/swc-darwin-x64': 15.1.5
@@ -10530,8 +10521,8 @@ snapshots:
   postcss@8.4.31:
     dependencies:
       nanoid: 3.3.7
-      picocolors: 1.0.1
-      source-map-js: 1.2.0
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
 
   postcss@8.4.49:
     dependencies:
@@ -10589,12 +10580,15 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@19.0.0(react@19.0.0):
+  react-dom@18.3.1(react@18.3.1):
     dependencies:
-      react: 19.0.0
-      scheduler: 0.25.0
+      loose-envify: 1.4.0
+      react: 18.3.1
+      scheduler: 0.23.2
 
-  react@19.0.0: {}
+  react@18.3.1:
+    dependencies:
+      loose-envify: 1.4.0
 
   read-cache@1.0.0:
     dependencies:
@@ -10712,7 +10706,9 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  scheduler@0.25.0: {}
+  scheduler@0.23.2:
+    dependencies:
+      loose-envify: 1.4.0
 
   semver@6.3.1: {}
 
@@ -10833,8 +10829,6 @@ snapshots:
       dot-case: 3.0.4
       tslib: 2.8.1
 
-  source-map-js@1.2.0: {}
-
   source-map-js@1.2.1: {}
 
   source-map-support@0.5.21:
@@ -10915,10 +10909,10 @@ snapshots:
 
   strnum@1.0.5: {}
 
-  styled-jsx@5.1.6(@babel/core@7.26.7)(react@19.0.0):
+  styled-jsx@5.1.6(@babel/core@7.26.7)(react@18.3.1):
     dependencies:
       client-only: 0.0.1
-      react: 19.0.0
+      react: 18.3.1
     optionalDependencies:
       '@babel/core': 7.26.7
 
@@ -11138,9 +11132,9 @@ snapshots:
 
   urlpattern-polyfill@10.0.0: {}
 
-  use-debounce@10.0.4(react@19.0.0):
+  use-debounce@10.0.4(react@18.3.1):
     dependencies:
-      react: 19.0.0
+      react: 18.3.1
 
   utf-8-validate@6.0.3:
     dependencies:
