@@ -1,6 +1,11 @@
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
 
+import  { Amplify } from 'aws-amplify';
+import outputs from '@/amplify_outputs.json';
+
+Amplify.configure(outputs);
+
 export default function RootLayout({
   children,
 }: {
